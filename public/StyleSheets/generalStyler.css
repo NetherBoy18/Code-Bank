@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "ProductSansRegular";
+    src: url("../fonts/Product-Sans-Regular.ttf") format('truetype');
+}
+
+body {
+    font-family: 'ProductSansRegular';
+    color: #6096db;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    background-color: transparent;
+    z-index: 999;
+}
+
+#logo {
+    position: fixed;
+    top: -19vh;
+    left: -7vw;
+}
+
+#logo img {
+    width: 29vw;
+    height: 62vh;
+}
+
+div#navbar { /* Top Navigation Bar */
+    width: 52.1vw;
+    height: 6.9vh;
+    position: fixed;
+    top: 2.77vh;
+    right: 2.6vw;
+    padding: auto;
+    text-align: center;
+    line-height: 6.9vh;
+    word-spacing: 1.3vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+#navbar > a { /* Top Navigation Bar Links */
+    text-decoration: none;
+    color: #6096db;
+}

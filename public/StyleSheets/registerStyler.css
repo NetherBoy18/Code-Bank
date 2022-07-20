@@ -1,0 +1,55 @@
+
+
+#register { /* REGISTER DIV */
+    position: fixed;
+    top: 27.7vh;
+    right: 3.3vw;
+    text-align: center;
+    width: auto;
+    height: auto;
+    color: #6096db;
+    line-height: 0.14vh;
+}
+
+#register > h1 { /* Create an Account! */
+    font-size: 4vw;
+}
+
+
+.regInfo { /* All input types inside register form */
+    margin-top: 1.4vh;
+    width: 19.5vw;
+    height: 4.16vh;
+    border: thin solid #6096db;
+    border-top-left-radius: 0.7vh 0.33vw;
+    border-top-right-radius: 0.7vh 0.33vw;
+    border-bottom-left-radius: 0.7vh 0.33vw;
+    border-bottom-right-radius: 0.7vh 0.33vw;
+    font-weight: bold;
+    color: #6096db;
+}
+
+#emailAdd { /* Input E-mail */
+    margin-bottom: 5.54vh;
+}
+
+.regInfo::placeholder { /* Display Text */
+    font-weight: bold;
+    color: #6096db;
+    text-align: center;
+}
+
+#submitBtn { /* Submit Button */
+    margin-top: 5.54vh;
+    width: 6.5vw;
+    font-size: 1.04vw;
+    opacity: 80%;
+}
+
+#submitBtn:hover { /* Cursor at Submit BUtton */
+    cursor: pointer;
+    opacity: 100%;
+    background-color: #6096db;
+    color: black;
+    border: 0.33vw solid black;
+}

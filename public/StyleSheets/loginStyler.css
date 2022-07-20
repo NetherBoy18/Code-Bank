@@ -1,0 +1,79 @@
+
+
+
+#login { /* LOGIN DIV */
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 31.9vh;
+    right: 3.26vw;
+    color: #6096db;
+    line-height: 2.08vh;
+}
+
+#login > h1 { /* Log in to your account. */
+    font-size: 7vh;
+    text-align: right;
+}
+
+#subLogin {
+    text-align: right;
+}
+
+.regInfo { /* Input Types inside Login Form*/
+    margin-top: 1.39vh;
+    width: 19.53vw;
+    height: 4.16vh;
+    border: thin solid #6096db;
+    border-top-left-radius: 0.7vh 0.33vw;
+    border-top-right-radius: 0.7vh 0.33vw;
+    border-bottom-left-radius: 0.7vh 0.33vw;
+    border-bottom-right-radius: 0.7vh 0.33vw;
+    font-weight: bold;
+    color: #6096db;
+}
+
+.regInfo::placeholder { /* Display Text of Input Text */
+    font-weight: bold;
+    color: #6096db;
+    text-align: right;
+}
+
+#username { /* Username Text Input */
+    margin-top: 5.54vh;
+}
+
+#submit { /* Submit Button */
+    width: auto;
+    height: auto;
+    opacity: 80%;
+}
+
+#submit:hover { /* Cursor at Submit BUtton */
+    cursor: pointer;
+    opacity: 100%;
+    background-color: #6096db;
+    color: black;
+    border: 0.33vw solid black;
+}
+
+#h5regLink { /* Create Account */
+    margin-top: 1.39vh;
+    font-size: 1.04vw;
+}
+
+h5#h5regLink > a{ /* Register Link */
+    color: #6096db;
+}
+
+h5#h5regLink > a:hover{ /* Register Link Hover */
+    color: black;
+}
+
+#naiad{ /* Defining NAIAD */
+    position: fixed;
+    color: white;
+    font-size: 1.3vw;
+    bottom: 16.6vh;
+    left: 4.56vw;
+}
